@@ -1,2 +1,7 @@
-**/plantvillage
-venv
+.idea
+.tdc
+.env
+saved_models/
+node_modules/
+*/__pycache__/
+*/.ipynb_checkpoints/

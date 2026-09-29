@@ -10,7 +10,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost",
-    "http://localhost:3000",
+    "http://localhost:5173",
 ]
 
 app.add_middleware(
@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=['*']
 )
 
-MODEL = tf.keras.models.load_model("../saved_models/tomato_model.h5")
+MODEL = tf.keras.models.load_model("../saved_models/tomato_v1.keras")
 
 
 
